@@ -1,0 +1,22 @@
+body{
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+.box{
+    height: auto;
+    width: 40%;
+    margin: auto;
+    padding: auto;
+    border: 3px solid black;
+    background-color:grey;
+   
+}
+label,input,button{
+    position:inherit;
+    text-align: center;  
+}
+button{
+    border-radius: 3px;
+    background-color: slategray;
+}

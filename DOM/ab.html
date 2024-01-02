@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Admin Home</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		
+	</head>
+	<body>
+			<div class="tab">
+				<button onclick="t1()">View Customers</button>
+				<button  onclick="t2()">View Products Info</button>
+				<button  onclick="t3()">Add New Products</button>
+			</div>
+			<div class="tabcontent" id="tab1">
+				<table>
+					<thead>
+					<tr>
+						<th>UserName</th>
+						<th>Email</th>
+						<th>Gender</th>
+						<th>Address</th>
+					</tr>
+					</thead>
+					<tbody>
+					</tbody>
+				</table>
+			</div>
+				
+			<div class="tabcontent" id="tab2">
+				<table>
+					<thead>
+					<tr>
+						<th>ID</th>
+						<th>Name</th>
+						<th>Description</th>
+						<th>Price</th>
+						<th>Image</th>
+					</tr>
+					</thead>
+				</table>
+			</div>
+			<div class="tabcontent" id="tab3">
+				<h1><b>Add New Products</b></h1>
+					<form action="addP" method="post">
+						<div class=form-group>
+							<label for="product-sid">Product ID:</label>
+							<input type ="text" id="product-id" name="product-id" required>
+						</div>
+						<br><br>
+						<div class=form-group>
+							<label for="product-name">Product Name:</label>
+							<input type ="text" id="product-name" name="product-name" required>
+						</div>
+						<br><br>
+						<div class=form-group>
+							<label for="product-description">Product Description:</label>
+							<input type ="text" id="product-description" name="product-description" required>
+						</div>
+						<br><br>
+						<div class=form-group>
+							<label for="product-price">Product Price:</label>
+							<input type ="text" id="product-price" name="product-price" required>
+						</div>
+						<br>
+						<div class=form-group>
+							<label for="product-image">Product Image file:</label>
+							<input type ="text" id="product-image" name="product-image" required>
+						</div>
+						<br><br>
+						<button type="submit">Submit</button>
+					</form>
+			</div>
+			<script>
+				const d1=document.getElementById('tab1');
+				const d2=document.getElementById('tab2');
+				const d3=document.getElementById('tab3');
+				
+				function t1(){
+				d1.style.display='block';
+				d2.style.display='none';
+				d3.style.display='none';
+				}
+				function t2(){
+				d1.style.display='none';
+				d2.style.display='block';
+				d3.style.display='none';
+				}
+				function t3(){
+				d1.style.display='none';
+				d2.style.display='none';
+				d3.style.display='block';
+				}
+				
+			</script>
+			
+	</body>
+</html>

@@ -1,0 +1,9 @@
+.quesation{
+    border: 3px solid black;
+    text-align: left;
+    border-radius: 40px;
+    display: block;
+}
+footer{
+    text-align:right;
+}

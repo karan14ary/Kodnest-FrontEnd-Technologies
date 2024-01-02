@@ -1,0 +1,40 @@
+body{
+  text-align: center;
+  margin: auto;
+  padding: auto;
+}
+.page{
+  display:flex;
+  height:40vh;
+  align-items: center;
+justify-content: center;
+ 
+}
+.btn{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+ height: auto;
+ width:auto;
+}
+button,input{
+  border: 1px solid black;
+  border-radius: 3px;
+  background-color: #04AA6D; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+button:hover{
+  background-color: aquamarine;
+}
+button:active{
+  background-color: aliceblue;
+}
+.ques{
+  text-align: left;
+}

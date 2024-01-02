@@ -1,0 +1,29 @@
+body{
+    background: lightgrey;
+}
+#first{
+    border: 10px solid black;
+    background-color: lightblue;
+    width: 300px;
+    height: 50px;
+
+}
+#second{
+    width: 300px;
+    height: 300px;
+    border: 10px solid lightsteelblue;
+    background-color: aliceblue;
+}
+#first:hover{
+    background-color: blue;
+    border-radius: 1000px;
+    border: 5px solid yellow;
+    text-align: center;
+}
+#second:hover{
+    background-color: green;
+    border-radius: 500px;
+    border: 10px solid blue;
+    text-align: center;
+  padding-top: 100px;
+}

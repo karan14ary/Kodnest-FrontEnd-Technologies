@@ -1,0 +1,13 @@
+body{
+    background-color: darkslategrey;
+}
+img{
+    width: 400px;
+    height: auto;
+    border: 15px solid grey;
+    border-radius: 50px;
+    opacity: 0.5;
+}
+img:hover{
+    opacity: 1;
+}

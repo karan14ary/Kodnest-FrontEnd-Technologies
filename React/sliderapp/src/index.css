@@ -1,0 +1,53 @@
+.number{
+display: flex;
+gap: 10px;
+margin-bottom: 20px;
+align-items: center;
+justify-content: center;
+}
+.message{
+  text-align: center;
+  font-weight: bolder;
+}
+.page{
+  text-align: center;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+#p {
+  border: 1px solid black;
+  border-radius: 20px;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#p:hover{
+  background-color:thistle;
+  cursor: pointer;
+}
+.active{
+  background-color:black;
+  color: white;
+}
+.body{
+  display:flex;
+  height:100vh;
+  align-items: center;
+justify-content: center;
+
+}
+.btn{
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  justify-content: space-around;
+
+}
+button{
+  background-color:lightgreen;
+  border: 2px solid black ;
+  border-radius: 5px;
+}

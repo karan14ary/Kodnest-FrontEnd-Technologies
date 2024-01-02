@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>form with alert</title>
+</head>
+<body>
+    <form onsubmit="display() ;return false;">
+    <label >Enter data:</label>
+    <input type="text" id="data">
+    <input type="submit">
+    </form> 
+    <p id="para"></p>
+    <script>
+        function display(){
+            let data=document.getElementById("data").value;
+            document.getElementById("para").innerHTML="Hello "+data;
+           
+        }
+
+    </script>
+</body>
+</html>
